@@ -1,7 +1,6 @@
 
 <?php
-echo "<script>
- if ( location.href.indexOf( 'refresh=1' ) == -1 ) {
+echo "<script>if(location.href.indexOf('refresh=1') == -1 ) {
   location.href = location.href + '?refresh=1';
  }
 </script>";
